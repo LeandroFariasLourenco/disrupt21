@@ -1,18 +1,13 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import {
-  SafeAreaView,
-  StatusBar,
-} from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 
-import Login from '@Screens/home';
+import Navigation from '@Navigation';
 
 const App = () => (
-  <>
-    <StatusBar barStyle='dark-content' />
-    <SafeAreaView>
-      <Login />
-    </SafeAreaView>
-  </>
+  <NavigationContainer>
+    <Navigation />
+  </NavigationContainer>
 );
 
 export default App;

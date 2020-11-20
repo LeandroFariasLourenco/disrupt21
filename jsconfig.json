@@ -11,6 +11,8 @@
       "@Constants/*": ["./src/constants/*"],
       "@Icons/*": ["./src/icons/*"],
       "@Utils/*": ["./src/utils/*"],
+      "@Navigation/*": ["./src/navigation/*"],
+      "@Client": ["./src/client/*"],
     }
   },
 }
